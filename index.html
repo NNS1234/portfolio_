@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Nudrat Nawal Saber</title>
+    <link rel = "icon" href = 
+"images/logo-r.png" 
+        type = "image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo-r.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#publication">Publication</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            
+            <h1><span>Nudrat Nawal Saber</span><br></h1>
+            <p>Software Engineer</p>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am an Innovative Software Engineer with 1 year of hands-on experience coding, debugging, and testing applications.I am a highly motivated individual who is always serious about any projects or tasks that are assigned to me. I always try to acquire new knowledge and experiment with new technologies. I also find myself intrigued by solving mathematical problems. I always look forward to learning new things and providing my very best.I have been working as a Software Engineer at Infosys where I learned to use different tools such as Java, Selenium, SQL Etc.  </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming languages</span><br>Java,JavaScript, Python, PHP, C# , SQL,HTML5, CSS3,R</li>
+                        <li><span>UI Automation Testing</span><br>Selenium WebDriver,Cucumber BDD,TestNG,JUnit</li>
+                        <li><span>Software Management</span><br>AGILE</li>
+                        <li><span>VCS</span><br>GitHub, GitLab</li>
+                        <li><span>Continuous Integration</span><br>Jenkins</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>May’22- Current</span><br>Associate, Infosys. Richardson,TX</li>
+                        <li><span>December’18- May’19</span><br>Adjunct Lecturer, Ahsanullah University of Science and Technology. Department of Computer Science and Engineering
+                        </li>
+                        <li><span>February’18- November’18</span><br>Research Assistant, Ahsanullah University of Science and Technology. Department of Computer Science and Engineering</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>May 2022</span><br>Master of Science (M.Sc), The University of Texas at Arlington. <br> Computer Science
+                            <br>Major field: Software Engineering , Intelligent System
+                            <br>CGPA 3.538/4.0</li>
+                        <li><span>January 2018</span><br>Bachelor of Science (B.Sc), Ahsanullah University of Scince and Technology, Dhaka, Bangladesh.
+                            <br> Computer Science and Engineering
+                            <br> CGPA : 3.801/4.0 (2nd in cse batch of 32nd)
+                            <br> Thesis: “Sentiment Analysis on large scale
+                            amazon product reviews”</li>
+                      
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- publication -->
+<div id="publication">
+    <div class="container"> 
+        <h1 class="sub-title">My Publication</h1>
+        <div class="publication">
+            <p>Sentiment analysis on large scale Amazon product reviews</p>
+          <p><span>Conference</span> <br >
+2018 IEEE international conference on innovative research and development (ICIRD)</p>
+            <a href="https://ieeexplore.ieee.org/abstract/document/8376299" download class="btn btn2">GO TO LINK</a> 
+        </div>
+        
+    
+    
+      
+   
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Book Finder</h3>
+                    <p>The web app helps you to find books</p>
+                    <a href="https://optimistic-ritchie-49a679.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Weather Info</h3>
+                    <p>This web app gives you the weather info based on the location</p>
+                    <a href="https://nns1234.github.io/temperature-hot-master/index.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Edu Site</h3>
+                    <p>This is an online educational app where you can find your required courses</p>
+                    <a href="https://edusite.netlify.app/home"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-4.png">
+                <div class="layer">
+                    <h3>Sonic Mart! </h3>
+                    <p>This is an online food app</p>
+                    
+                    <a href="https://sonicmart.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div>
+                <br>
+            </div>
+   
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> nudratsaber@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 2148926389</p>
+                <div class="social-icons">
+                    
+                    <a href="https://github.com/NNS1234"><i class="fa fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nudrat-saber-31a297178/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Nudrat Nawal Saber </p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxQQqY0osaip6IK-SBQ4fgKJwCpAGmpmXhFTMBCnk2Z3UFxAtYidqmFa5XpdMHoOxuj/exec' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
